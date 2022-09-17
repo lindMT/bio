@@ -1,0 +1,48 @@
+body{
+    background-color: beige;
+}
+
+p {
+    font-size: 4rem;
+}
+
+table{
+    font-size: 2rem;
+}
+
+th{
+    width: 100px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.indexCard {
+    background-image:
+        linear-gradient(90deg, transparent 0%, transparent 10%, #EA858A 10%, #EA858A calc(10% + 3px), 
+        transparent calc(10% + 3px), transparent 100%), 
+        linear-gradient(180deg, white 10%, transparent 10%), 
+        repeating-linear-gradient(180deg, #91C1E1 0px, #91C1E1 2px, transparent 2px, transparent 38px), 
+        linear-gradient(white,white);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 750px;
+    
+    font-family: 'Reenie Beanie';
+    font-weight: bold;
+    color: rgb(45, 42, 42);
+}
+
+.icon {
+    position: relative;
+}
+
+.icon img {
+    position: absolute;
+    top: 0px;
+    right: 0px; 
+    height: 150px;
+    width: 150px;
+}
